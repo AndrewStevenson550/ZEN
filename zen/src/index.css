@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Anton&family=BBH+Hegarty&family=Barrio&family=Comic+Relief:wght@400;700&family=Delius&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Sekuya&family=Story+Script&display=swap');
+
 @import "tailwindcss";
 
 /* You can add your own custom styles here */
 /* ... */
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+  --color-side-bg: #EED7C5;
+}

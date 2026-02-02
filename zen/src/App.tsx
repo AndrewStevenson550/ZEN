@@ -1,11 +1,18 @@
+import NewsFeed from "./components/NewsFeed.tsx";
+import WeatherCard from "./components/WeatherCard.tsx";
+import TodoList  from "./components/TodoList.tsx";
+import Sidebar from "./components/Sidebar.tsx";
+import React from "react";
+
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-900 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold underline">
-        Vite + React + Tailwind is Running!
-      </h1>
-    </div>
-  )
+    <>
+      {/* <NewsFeed />
+      <WeatherCard />
+      <TodoList /> */}
+      <Sidebar />
+    </>
+  );
 }
 
-export default App
+export default App;
