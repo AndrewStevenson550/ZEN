@@ -8,4 +8,21 @@
 @theme {
   --font-roboto: 'Roboto', sans-serif;
   --color-side-bg: #EED7C5;
+  --color-side-text: #000000;
+  --color-bg: #000000;
+  
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-side-bg: #1f2937;
+    --color-side-text: #d1d5db;
+    --color-bg: #111827;
+  }
+}
+
+body{
+  background-color: var(--color-bg);
+
 }
