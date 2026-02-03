@@ -6,12 +6,13 @@ import React from "react";
 
 function App() {
   return (
-    <>
-      {/* <NewsFeed />
+    <div className="flex">
+      <Sidebar />
+      <NewsFeed />
+      {/* 
       <WeatherCard />
       <TodoList /> */}
-      <Sidebar />
-    </>
+    </div>
   );
 }
 

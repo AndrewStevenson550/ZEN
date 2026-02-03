@@ -9,7 +9,8 @@
   --font-roboto: 'Roboto', sans-serif;
   --color-side-bg: #EED7C5;
   --color-side-text: #000000;
-  --color-bg: #000000;
+  --color-bg: #ffffff;
+  --color-widget-bg: #EEE2DF;
   
 
 }
@@ -19,6 +20,7 @@
     --color-side-bg: #1f2937;
     --color-side-text: #d1d5db;
     --color-bg: #111827;
+    --color-widget-bg: #423e3d;
   }
 }
 
